@@ -23,6 +23,11 @@ jobs:
         with:
           version: 8
 
+      - name: Create .npmrc
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
+          echo "@testsigmaprafull:registry=https://npm.pkg.github.com" >> .npmrc
+
       - name: Install dependencies
         run: pnpm install
 
