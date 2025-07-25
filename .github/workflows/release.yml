@@ -3,7 +3,9 @@ name: Release
 on:
   push:
     branches: [main, develop]
-
+permissions:
+  contents: write
+  packages: write
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -16,7 +18,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-          registry-url:  'https://npm.pkg.github.com'
+          registry-url: 'https://npm.pkg.github.com'
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
@@ -40,14 +42,5 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Get the current branch name
-          BRANCH_NAME=${GITHUB_REF#refs/heads/}
-          
-          # Set environment variable for beachball config
-          export BRANCH_NAME=$BRANCH_NAME
-          
-          # Run beachball publish
-          if [[ "$BRANCH_NAME" == "main" || "$BRANCH_NAME" == "develop" ]]; then
-            pnpm beachball publish --yes
-          fi
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: pnpm beachball publish --yes

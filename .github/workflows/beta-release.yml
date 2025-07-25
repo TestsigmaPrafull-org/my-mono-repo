@@ -4,6 +4,9 @@ on:
   push:
     branches-ignore: [main, develop]
 
+permissions:
+  contents: write
+  packages: write
 jobs:
   beta-release:
     runs-on: ubuntu-latest
