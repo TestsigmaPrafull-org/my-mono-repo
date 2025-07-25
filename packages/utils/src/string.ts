@@ -9,7 +9,7 @@ export function capitalize(str: string): string {
  * Converts a string to camelCase
  */
 export function toCamelCase(str: string): string {
-  return str.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+  return str.replace(/-([a-z])/g, (g) => g[1]!.toUpperCase());
 }
 
 /**

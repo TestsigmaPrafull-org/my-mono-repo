@@ -84,7 +84,7 @@ export class AuthManager {
     try {
       const decoded = verifyToken(token);
       if (decoded) {
-        this.currentUser = decoded as User;
+        this.currentUser = decoded as unknown as User;
         return this.currentUser;
       }
       return null;

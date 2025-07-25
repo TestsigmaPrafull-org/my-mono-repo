@@ -8,6 +8,9 @@
     "build": "tsc",
     "dev": "tsc --watch"
   },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
   "keywords": ["config", "configuration"],
   "author": "Your Name",
   "license": "MIT"

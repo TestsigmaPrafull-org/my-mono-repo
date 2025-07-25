@@ -38,7 +38,7 @@ export function verifyToken(token: string): JWTPayload | null {
       return null;
     }
 
-    const payloadStr = atob(parts[1]);
+    const payloadStr = atob(parts[1]!);
     const payload: JWTPayload = JSON.parse(payloadStr);
 
     // Check if token is expired
@@ -62,7 +62,7 @@ export function decodeToken(token: string): JWTPayload | null {
       return null;
     }
 
-    const payloadStr = atob(parts[1]);
+    const payloadStr = atob(parts[1]!);
     return JSON.parse(payloadStr);
   } catch (error) {
     return null;
