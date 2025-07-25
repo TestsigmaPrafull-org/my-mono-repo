@@ -1,0 +1,20 @@
+{
+  "name": "@my-mono-repo/auth",
+  "version": "1.0.0",
+  "description": "Authentication utilities for the monorepo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@my-mono-repo/utils": "workspace:*",
+    "@my-mono-repo/config": "workspace:*",
+    "@my-mono-repo/api-client": "workspace:*",
+    "@my-mono-repo/database": "workspace:*"
+  },
+  "keywords": ["auth", "authentication", "jwt"],
+  "author": "Your Name",
+  "license": "MIT"
+} 

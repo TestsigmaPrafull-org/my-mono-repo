@@ -1,0 +1,14 @@
+{
+  "name": "@my-mono-repo/config",
+  "version": "1.0.0",
+  "description": "Shared configuration for the monorepo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["config", "configuration"],
+  "author": "Your Name",
+  "license": "MIT"
+} 
