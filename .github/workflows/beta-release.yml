@@ -1,11 +1,8 @@
 name: Beta Release
 
 on:
-  workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Branch to release beta from'
-        required: true
+  push:
+    branches-ignore: [main, develop]
 
 jobs:
   beta-release:
@@ -14,7 +11,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          ref: ${{ github.event.inputs.branch }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -39,5 +35,5 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: ${{ github.event.inputs.branch }}
+          BRANCH_NAME: ${{ github.ref_name }}
         run: pnpm beachball publish --yes
