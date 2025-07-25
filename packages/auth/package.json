@@ -1,5 +1,5 @@
 {
-  "name": "@my-mono-repo/auth",
+  "name": "@testsigmaprafull-org/auth",
   "version": "1.0.0",
   "description": "Authentication utilities for the monorepo",
   "main": "dist/index.js",
@@ -9,10 +9,10 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@my-mono-repo/utils": "workspace:*",
-    "@my-mono-repo/config": "workspace:*",
-    "@my-mono-repo/api-client": "workspace:*",
-    "@my-mono-repo/database": "workspace:*"
+    "@testsigmaprafull-org/utils": "workspace:*",
+    "@testsigmaprafull-org/config": "workspace:*",
+    "@testsigmaprafull-org/api-client": "workspace:*",
+    "@testsigmaprafull-org/database": "workspace:*"
   },
   "keywords": ["auth", "authentication", "jwt"],
   "author": "Your Name",

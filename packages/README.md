@@ -6,29 +6,29 @@ This directory contains shared packages for the monorepo.
 
 ### Core Packages (No Dependencies)
 
-- **`@my-mono-repo/utils`** - Common utility functions
+- **`@testsigmaprafull-org/utils`** - Common utility functions
   - String, array, object, and date utilities
   - No dependencies on other workspace packages
 
-- **`@my-mono-repo/config`** - Shared configuration
+- **`@testsigmaprafull-org/config`** - Shared configuration
   - Environment, app, and database configuration
   - No dependencies on other workspace packages
 
 ### Dependent Packages
 
-- **`@my-mono-repo/api-client`** - HTTP API client
+- **`@testsigmaprafull-org/api-client`** - HTTP API client
   - Dependencies: `utils`, `config`
   - Provides HTTP client with type-safe responses
 
-- **`@my-mono-repo/database`** - Database utilities
+- **`@testsigmaprafull-org/database`** - Database utilities
   - Dependencies: `utils`, `config`
   - Database connection management and data models
 
-- **`@my-mono-repo/validation`** - Data validation
+- **`@testsigmaprafull-org/validation`** - Data validation
   - Dependencies: `utils`, `config`
   - Validation rules and predefined schemas
 
-- **`@my-mono-repo/auth`** - Authentication system
+- **`@testsigmaprafull-org/auth`** - Authentication system
   - Dependencies: `utils`, `config`, `api-client`, `database`
   - JWT authentication and permission management
 
@@ -57,7 +57,7 @@ auth (utils, config, api-client, database)
 pnpm build
 
 # Build specific package
-pnpm --filter @my-mono-repo/utils build
+pnpm --filter @testsigmaprafull-org/utils build
 ```
 
 ### Development Mode
@@ -67,7 +67,7 @@ pnpm --filter @my-mono-repo/utils build
 pnpm dev
 
 # Watch mode for specific package
-pnpm --filter @my-mono-repo/utils dev
+pnpm --filter @testsigmaprafull-org/utils dev
 ```
 
 ### Adding Dependencies
@@ -77,7 +77,7 @@ When adding dependencies between packages, use workspace protocol:
 ```json
 {
   "dependencies": {
-    "@my-mono-repo/utils": "workspace:*"
+    "@testsigmaprafull-org/utils": "workspace:*"
   }
 }
 ```

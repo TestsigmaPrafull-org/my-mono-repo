@@ -1,5 +1,5 @@
-import { getDatabaseConfig } from '@my-mono-repo/config';
-import { deepClone } from '@my-mono-repo/utils';
+import { getDatabaseConfig } from '@testsigmaprafull-org/config';
+import { deepClone } from '@testsigmaprafull-org/utils';
 
 export interface DatabaseConnection {
   host: string;

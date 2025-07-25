@@ -1,4 +1,4 @@
-# @my-mono-repo/api-client
+# @testsigmaprafull-org/api-client
 
 API client for the monorepo.
 
@@ -12,7 +12,7 @@ API client for the monorepo.
 ## Usage
 
 ```typescript
-import { ApiClient, API_ENDPOINTS } from '@my-mono-repo/api-client';
+import { ApiClient, API_ENDPOINTS } from '@testsigmaprafull-org/api-client';
 
 const client = new ApiClient();
 
@@ -31,8 +31,8 @@ const posts = await client.get(API_ENDPOINTS.POSTS.LIST);
 
 ## Dependencies
 
-- `@my-mono-repo/utils`: For utility functions (deepClone)
-- `@my-mono-repo/config`: For API configuration
+- `@testsigmaprafull-org/utils`: For utility functions (deepClone)
+- `@testsigmaprafull-org/config`: For API configuration
 
 ## API Endpoints
 

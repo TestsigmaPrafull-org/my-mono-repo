@@ -1,5 +1,5 @@
 {
-  "name": "@my-mono-repo/validation",
+  "name": "@testsigmaprafull-org/validation",
   "version": "1.0.0",
   "description": "Validation utilities for the monorepo",
   "main": "dist/index.js",
@@ -9,8 +9,8 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@my-mono-repo/utils": "workspace:*",
-    "@my-mono-repo/config": "workspace:*"
+    "@testsigmaprafull-org/utils": "workspace:*",
+    "@testsigmaprafull-org/config": "workspace:*"
   },
   "keywords": ["validation", "schema", "validator"],
   "author": "Your Name",

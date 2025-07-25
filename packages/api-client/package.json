@@ -1,5 +1,5 @@
 {
-  "name": "@my-mono-repo/api-client",
+  "name": "@testsigmaprafull-org/api-client",
   "version": "1.0.0",
   "description": "API client for the monorepo",
   "main": "dist/index.js",
@@ -9,8 +9,8 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@my-mono-repo/utils": "workspace:*",
-    "@my-mono-repo/config": "workspace:*"
+    "@testsigmaprafull-org/utils": "workspace:*",
+    "@testsigmaprafull-org/config": "workspace:*"
   },
   "keywords": ["api", "client", "http"],
   "author": "Your Name",

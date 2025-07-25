@@ -1,4 +1,4 @@
-# @my-mono-repo/validation
+# @testsigmaprafull-org/validation
 
 Validation utilities for the monorepo.
 
@@ -31,8 +31,8 @@ if (!result.isValid) {
 
 ## Dependencies
 
-- `@my-mono-repo/utils`: For utility functions (truncate)
-- `@my-mono-repo/config`: For validation configuration
+- `@testsigmaprafull-org/utils`: For utility functions (truncate)
+- `@testsigmaprafull-org/config`: For validation configuration
 
 ## Predefined Schemas
 

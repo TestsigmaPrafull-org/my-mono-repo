@@ -1,4 +1,4 @@
-import { truncate } from '@my-mono-repo/utils';
+import { truncate } from '@testsigmaprafull-org/utils';
 import { ValidationError, ValidationResult, ValidationRule } from './types';
 
 export class Validator {

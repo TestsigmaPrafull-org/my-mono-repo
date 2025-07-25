@@ -1,6 +1,6 @@
-import { getEnvironmentConfig } from '@my-mono-repo/config';
-import { ApiClient, API_ENDPOINTS } from '@my-mono-repo/api-client';
-import { DatabaseManager } from '@my-mono-repo/database';
+import { getEnvironmentConfig } from '@testsigmaprafull-org/config';
+import { ApiClient, API_ENDPOINTS } from '@testsigmaprafull-org/api-client';
+import { DatabaseManager } from '@testsigmaprafull-org/database';
 import { generateToken, verifyToken } from './jwt';
 import { checkPermission } from './permissions';
 

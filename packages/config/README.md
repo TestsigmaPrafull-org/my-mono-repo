@@ -1,4 +1,4 @@
-# @my-mono-repo/config
+# @testsigmaprafull-org/config
 
 Shared configuration for the monorepo.
 
@@ -11,7 +11,7 @@ Shared configuration for the monorepo.
 ## Usage
 
 ```typescript
-import { getEnvironmentConfig, getAppConfig, getDatabaseConfig } from '@my-mono-repo/config';
+import { getEnvironmentConfig, getAppConfig, getDatabaseConfig } from '@testsigmaprafull-org/config';
 
 // Environment configuration
 const env = getEnvironmentConfig();

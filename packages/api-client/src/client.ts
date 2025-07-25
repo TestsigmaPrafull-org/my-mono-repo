@@ -1,5 +1,5 @@
-import { getEnvironmentConfig } from '@my-mono-repo/config';
-import { deepClone } from '@my-mono-repo/utils';
+import { getEnvironmentConfig } from '@testsigmaprafull-org/config';
+import { deepClone } from '@testsigmaprafull-org/utils';
 import { ApiResponse, ApiError, RequestOptions, ApiConfig } from './types';
 
 export class ApiClient {

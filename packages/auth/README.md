@@ -1,4 +1,4 @@
-# @my-mono-repo/auth
+# @testsigmaprafull-org/auth
 
 Authentication utilities for the monorepo.
 
@@ -12,7 +12,7 @@ Authentication utilities for the monorepo.
 ## Usage
 
 ```typescript
-import { AuthManager, PERMISSIONS } from '@my-mono-repo/auth';
+import { AuthManager, PERMISSIONS } from '@testsigmaprafull-org/auth';
 
 const authManager = new AuthManager();
 
@@ -33,10 +33,10 @@ const user = await authManager.verifyToken(token);
 
 ## Dependencies
 
-- `@my-mono-repo/utils`: For utility functions
-- `@my-mono-repo/config`: For JWT configuration
-- `@my-mono-repo/api-client`: For authentication API calls
-- `@my-mono-repo/database`: For user data management
+- `@testsigmaprafull-org/utils`: For utility functions
+- `@testsigmaprafull-org/config`: For JWT configuration
+- `@testsigmaprafull-org/api-client`: For authentication API calls
+- `@testsigmaprafull-org/database`: For user data management
 
 ## Permissions
 

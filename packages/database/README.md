@@ -1,4 +1,4 @@
-# @my-mono-repo/database
+# @testsigmaprafull-org/database
 
 Database utilities for the monorepo.
 
@@ -28,8 +28,8 @@ await migrationManager.runMigrations();
 
 ## Dependencies
 
-- `@my-mono-repo/utils`: For utility functions (deepClone)
-- `@my-mono-repo/config`: For database configuration
+- `@testsigmaprafull-org/utils`: For utility functions (deepClone)
+- `@testsigmaprafull-org/config`: For database configuration
 
 ## Data Models
 

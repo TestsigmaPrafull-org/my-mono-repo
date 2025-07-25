@@ -1,4 +1,4 @@
-# @my-mono-repo/utils
+# @testsigmaprafull-org/utils
 
 Common utility functions for the monorepo.
 
@@ -12,7 +12,7 @@ Common utility functions for the monorepo.
 ## Usage
 
 ```typescript
-import { capitalize, deepClone, unique } from '@my-mono-repo/utils';
+import { capitalize, deepClone, unique } from '@testsigmaprafull-org/utils';
 
 // String utilities
 const result = capitalize('hello world'); // 'Hello world'

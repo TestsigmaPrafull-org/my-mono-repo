@@ -1,4 +1,4 @@
-import { getEnvironmentConfig } from '@my-mono-repo/config';
+import { getEnvironmentConfig } from '@testsigmaprafull-org/config';
 
 export interface JWTPayload {
   userId: string;
