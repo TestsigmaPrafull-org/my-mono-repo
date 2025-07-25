@@ -53,6 +53,7 @@ module.exports = {
   defaultNpmTag: getBranchTag(branch),
   prereleasePrefix: getPrereleasePrefix(branch),
   branch: parentBranch, // Use the detected parent branch
+  registry: 'https://npm.pkg.github.com', // Use GitHub Packages
   changeFilePrompt: {
     type: true,        // Prompts for change type (major, minor, patch)
     comment: true,     // Prompts for change description
