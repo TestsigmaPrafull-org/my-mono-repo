@@ -1,6 +1,6 @@
 {
   "name": "@testsigmaprafull-org/database",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "Database utilities for the monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,11 @@
     "@testsigmaprafull-org/utils": "workspace:*",
     "@testsigmaprafull-org/config": "workspace:*"
   },
-  "keywords": ["database", "db", "sql"],
+  "keywords": [
+    "database",
+    "db",
+    "sql"
+  ],
   "author": "Your Name",
   "license": "MIT"
-} 
+}

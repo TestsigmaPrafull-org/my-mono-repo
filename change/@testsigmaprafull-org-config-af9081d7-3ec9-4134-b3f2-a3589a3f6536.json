@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "feat: add beachball configuration and integrate with package scripts",
-  "packageName": "@testsigmaprafull-org/config",
-  "email": "prafull.kumar@testsigma.com",
-  "dependentChangeType": "patch"
-}

@@ -1,0 +1,20 @@
+{
+  "name": "@testsigmaprafull-org/config",
+  "entries": [
+    {
+      "date": "Fri, 25 Jul 2025 12:31:09 GMT",
+      "version": "1.0.1-beta.0",
+      "tag": "@testsigmaprafull-org/config_v1.0.1-beta.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "prafull.kumar@testsigma.com",
+            "package": "@testsigmaprafull-org/config",
+            "commit": "c2c3c192b09cf76765529c8e8484c972f53cc176",
+            "comment": "feat: add beachball configuration and integrate with package scripts"
+          }
+        ]
+      }
+    }
+  ]
+}

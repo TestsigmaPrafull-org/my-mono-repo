@@ -1,6 +1,6 @@
 {
   "name": "@testsigmaprafull-org/config",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "Shared configuration for the monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,10 @@
   "devDependencies": {
     "@types/node": "^20.0.0"
   },
-  "keywords": ["config", "configuration"],
+  "keywords": [
+    "config",
+    "configuration"
+  ],
   "author": "Your Name",
   "license": "MIT"
-} 
+}

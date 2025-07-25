@@ -1,6 +1,6 @@
 {
   "name": "@testsigmaprafull-org/auth",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "Authentication utilities for the monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,11 @@
     "@testsigmaprafull-org/api-client": "workspace:*",
     "@testsigmaprafull-org/database": "workspace:*"
   },
-  "keywords": ["auth", "authentication", "jwt"],
+  "keywords": [
+    "auth",
+    "authentication",
+    "jwt"
+  ],
   "author": "Your Name",
   "license": "MIT"
-} 
+}

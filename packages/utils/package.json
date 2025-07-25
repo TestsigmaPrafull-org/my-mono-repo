@@ -1,6 +1,6 @@
 {
   "name": "@testsigmaprafull-org/utils",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "Common utility functions for the monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,10 @@
     "dev": "tsc --watch",
     "test": "jest"
   },
-  "keywords": ["utils", "utilities"],
+  "keywords": [
+    "utils",
+    "utilities"
+  ],
   "author": "Your Name",
   "license": "MIT"
-} 
+}
