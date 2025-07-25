@@ -20,5 +20,9 @@
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TestsigmaPrafull/my-mono-repo.git"
   }
 }
