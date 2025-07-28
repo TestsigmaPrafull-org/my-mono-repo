@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Database migration management
+ */
+
 export interface Migration {
   id: string;
   name: string;

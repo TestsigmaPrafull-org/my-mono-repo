@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * API endpoints configuration
+ */
+
 export const API_ENDPOINTS = {
   USERS: {
     LIST: '/users',

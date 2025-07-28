@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Database model definitions
+ */
+
 export interface User {
   id: string;
   email: string;

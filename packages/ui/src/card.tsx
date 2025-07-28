@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Card component implementation
+ */
+
 import { type JSX } from "react";
 
 export function Card({

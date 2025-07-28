@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * JWT token utilities
+ */
+
 import { getEnvironmentConfig } from '@testsigmaprafull-org/config';
 
 export interface JWTPayload {

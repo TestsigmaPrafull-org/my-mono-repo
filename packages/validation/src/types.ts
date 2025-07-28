@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Validation type definitions
+ */
+
 export interface ValidationError {
   field: string;
   message: string;

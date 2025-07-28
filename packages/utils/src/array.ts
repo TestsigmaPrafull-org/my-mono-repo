@@ -1,4 +1,9 @@
 /**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Array utility functions
+ */
+
+/**
  * Removes duplicate items from an array
  */
 export function unique<T>(arr: T[]): T[] {

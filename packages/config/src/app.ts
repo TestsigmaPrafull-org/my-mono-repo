@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Application configuration management
+ */
+
 export interface AppConfig {
   name: string;
   version: string;

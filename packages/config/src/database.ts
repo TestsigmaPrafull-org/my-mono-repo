@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Database configuration management
+ */
+
 export interface DatabaseConfig {
   host: string;
   port: number;

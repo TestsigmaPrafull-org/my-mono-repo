@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Validation schema definitions
+ */
+
 import { Schema, FieldValidation, ValidationRule } from './types';
 
 export const USER_SCHEMA: Schema = {

@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Permission management utilities
+ */
+
 export interface Permission {
   resource: string;
   action: string;

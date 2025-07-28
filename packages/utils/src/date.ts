@@ -1,4 +1,9 @@
 /**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Date utility functions
+ */
+
+/**
  * Formats a date to a readable string
  */
 export function formatDate(date: Date, format = 'YYYY-MM-DD'): string {

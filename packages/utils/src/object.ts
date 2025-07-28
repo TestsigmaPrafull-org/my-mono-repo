@@ -1,4 +1,9 @@
 /**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Object utility functions
+ */
+
+/**
  * Deep clones an object
  */
 export function deepClone<T>(obj: T): T {
