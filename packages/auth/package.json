@@ -1,6 +1,6 @@
 {
   "name": "@testsigmaprafull-org/auth",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.1-beta.1",
   "description": "Authentication utilities for the monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

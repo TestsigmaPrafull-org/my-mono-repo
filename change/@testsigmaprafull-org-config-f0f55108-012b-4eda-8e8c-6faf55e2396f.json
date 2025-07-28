@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Update GitHub Actions workflows and README files for testing purposes",
-  "packageName": "@testsigmaprafull-org/config",
-  "email": "prafull.kumar@testsigma.com",
-  "dependentChangeType": "patch"
-}

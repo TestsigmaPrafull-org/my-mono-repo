@@ -2,6 +2,21 @@
   "name": "@testsigmaprafull-org/api-client",
   "entries": [
     {
+      "date": "Mon, 28 Jul 2025 09:31:57 GMT",
+      "version": "1.0.1-beta.1",
+      "tag": "@testsigmaprafull-org/api-client_v1.0.1-beta.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "prafull.kumar@testsigma.com",
+            "package": "@testsigmaprafull-org/api-client",
+            "commit": "4eb36203f79405a15103309a64199187bf9a827f",
+            "comment": "Update GitHub Actions workflows and README files for testing purposes"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 25 Jul 2025 12:31:09 GMT",
       "version": "1.0.1-beta.0",
       "tag": "@testsigmaprafull-org/api-client_v1.0.1-beta.0",

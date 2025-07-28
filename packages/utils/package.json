@@ -1,6 +1,6 @@
 {
   "name": "@testsigmaprafull-org/utils",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.1-beta.1",
   "description": "Common utility functions for the monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
