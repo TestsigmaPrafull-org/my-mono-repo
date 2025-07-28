@@ -1,3 +1,5 @@
+<!-- DUMMY COMMENT: This is a copied package for testing purposes -->
+
 # @testsigmaprafull-org/auth
 
 Authentication utilities for the monorepo.

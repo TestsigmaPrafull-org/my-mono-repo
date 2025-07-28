@@ -1,3 +1,5 @@
+<!-- DUMMY COMMENT: This is a copied package for testing purposes -->
+
 # @testsigmaprafull-org/database
 
 Database utilities for the monorepo.

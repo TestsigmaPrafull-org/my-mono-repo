@@ -1,3 +1,5 @@
+<!-- DUMMY COMMENT: This is a copied package for testing purposes -->
+
 # @testsigmaprafull-org/utils
 
 Common utility functions for the monorepo.

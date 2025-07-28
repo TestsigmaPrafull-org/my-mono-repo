@@ -3,9 +3,11 @@ name: Release
 on:
   push:
     branches: [main, develop]
+
 permissions:
   contents: write
   packages: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -28,7 +30,7 @@ jobs:
       - name: Create .npmrc
         run: |
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
-          echo "@testsigmaprafull:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "@testsigmaprafull-org:registry=https://npm.pkg.github.com" >> .npmrc
 
       - name: Install dependencies
         run: pnpm install
@@ -38,9 +40,16 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
 
+      - name: Debug Info
+        run: |
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Event: ${{ github.event_name }}"
+          echo "SHA: ${{ github.sha }}"
+          git log --oneline -5
+
       - name: Release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: ${{ github.ref_name }}
-        run: pnpm beachball publish --yes
+        run: pnpm beachball publish

@@ -1,3 +1,5 @@
+<!-- DUMMY COMMENT: This is a copied package for testing purposes -->
+
 # @testsigmaprafull-org/config
 
 Shared configuration for the monorepo.

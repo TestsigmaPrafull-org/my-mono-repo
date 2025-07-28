@@ -1,3 +1,5 @@
+<!-- DUMMY COMMENT: This is a copied packages directory for testing purposes -->
+
 # Packages
 
 This directory contains shared packages for the monorepo.
