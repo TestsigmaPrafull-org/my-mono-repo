@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Environment configuration management
+ */
+
 export interface EnvironmentConfig {
   NODE_ENV: 'development' | 'production' | 'test';
   PORT: number;

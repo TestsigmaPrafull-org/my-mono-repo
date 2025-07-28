@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Authentication manager implementation
+ */
+
 import { getEnvironmentConfig } from '@testsigmaprafull-org/config';
 import { ApiClient, API_ENDPOINTS } from '@testsigmaprafull-org/api-client';
 import { DatabaseManager } from '@testsigmaprafull-org/database';

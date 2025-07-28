@@ -1,4 +1,9 @@
 /**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * String utility functions
+ */
+
+/**
  * Capitalizes the first letter of a string
  */
 export function capitalize(str: string): string {

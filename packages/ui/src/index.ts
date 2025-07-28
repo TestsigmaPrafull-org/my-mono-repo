@@ -1,4 +1,5 @@
 /**
+ * DUMMY COMMENT: This is a copied package for testing purposes
  * @description UI package - Reusable React components with TypeScript support
  * @version 1.0.1
  * @author TestSigma Team

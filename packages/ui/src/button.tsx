@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Button component implementation
+ */
+
 "use client";
 
 import { ReactNode } from "react";

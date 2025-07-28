@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Validation utilities and rules
+ */
+
 import { truncate } from '@testsigmaprafull-org/utils';
 import { ValidationError, ValidationResult, ValidationRule } from './types';
 

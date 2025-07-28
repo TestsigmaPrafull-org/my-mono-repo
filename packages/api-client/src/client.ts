@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * API Client implementation for HTTP requests
+ */
+
 import { getEnvironmentConfig } from '@testsigmaprafull-org/config';
 import { deepClone } from '@testsigmaprafull-org/utils';
 import { ApiResponse, ApiError, RequestOptions, ApiConfig } from './types';

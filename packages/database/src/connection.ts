@@ -1,3 +1,8 @@
+/**
+ * DUMMY COMMENT: This is a copied package for testing purposes
+ * Database connection management
+ */
+
 import { getDatabaseConfig } from '@testsigmaprafull-org/config';
 import { deepClone } from '@testsigmaprafull-org/utils';
 

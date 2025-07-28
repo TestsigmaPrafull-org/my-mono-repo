@@ -1,4 +1,5 @@
 /**
+ * DUMMY COMMENT: This is a copied package for testing purposes
  * @description Authentication package - User authentication and authorization
  * @version 1.0.1
  * @author TestSigma Team
